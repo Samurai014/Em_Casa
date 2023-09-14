@@ -1,41 +1,6 @@
-def maior(a,b,c,d,e):
-    maior = a
+import math 
 
-    if b > maior:
-        maior = b
-    if c > maior:
-        maior = c
-    if d > maior:
-        maior = d
-    if e > maior:
-        maior = e
+n1 = float(input('digite um numero quebrado: '))
+quebrado = math.trunc(n1)
 
-    return maior
-
-def menor(a,b,c,d,e):
-    menor= a
-
-    if b < menor:
-        menor = b
-    if c < menor:
-        menor = c
-    if d < menor:
-        menor = d
-    if e < menor:
-        menor = e
-
-    return menor
-
-def operacao():
-    a = int(input("Primeiro numero: "))
-    b = int(input("Segundo numero : "))
-    c = int(input("Terceiro numero: "))
-    d = int(input("Quarto numero: "))
-    e = int(input("Quinto numero: "))
-
-    print("Maior: ", maior(a,b,c,d,e))
-    print("Menor: ", menor(a,b,c,d,e))
-    print()
-    
-while True:
-    operacao()
+print('teste de numero quebrado {}'.format(quebrado)) 
