@@ -37,5 +37,20 @@
 #print('o aluno escolhido foi {}'.format(escolhido))
 
 #Desafio 20
+#from random import shuffle
+#n1 = str(input('Primeiro aluno: '))
+#n2 = str(input('Segundo aluno: '))
+#n3 = str(input('Terceiro aluno: '))
+#n4 = str(input('Quarto aluno: '))
+#
+#lista = [n1, n2, n3, n4]
+#ordem = shuffle(lista)
+#
+#print('a ordem de apresentação sera {}'.format(lista))
 
 #Desafio 21
+#import pygame
+#pygame.init()
+#pygame.mixer.music.load('ex21.mp3')
+#pygame.mixer.music.play()
+#pygame.event.wait()
