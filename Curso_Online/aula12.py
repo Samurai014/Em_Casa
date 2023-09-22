@@ -129,18 +129,83 @@
 #    print('você esta obesidade morbida, cuidado!')
 
 #Desafio 44
+#print('{:=^40}'.format(' Lojas guanabara '))
+#
+#preço = float(input('Preço das compras: R$'))
+#
+#print('''Formas de pagamento
+#[ 1 ] á vista dinheiro/cheque
+#[ 2 ] á vista no cartão
+#[ 3 ] 2x no cartão
+#[ 4 ] 3x ou mais no cartão''')
+#
+#opção = int(input('Qual é a opção? '))
+#
+#if opção == 1:
+#    total = preço-(preço*10/100)
+#elif opção == 2:
+#    total = preço-(preço*5/100)
+#elif opção == 3:
+#    total = preço
+#    parcela = total/2
+#    print('sua compra será parcelada em 2x de R${:.2f}'.format(parcela))
+#elif opção == 4:
+#    total = preço+(preço*20/100)
+#    parcelas = int(input('Quantas parcelas? '))
+#    parcela = total/parcelas
+#    print('sua compra será parcelada em {}x de R${:.2f} com juros'.format(parcelas, parcela))
+#else:
+#    total = 0
+#    print('opção inválida de pagamento. tente novamento!')
+#print('sua compra de R${:.2f} vai custar R${:.2f} no final'.format(preço, total))
 
 #Desafio 45
 #from random import randint
+#from time import sleep
+#itens = ('Pedra', 'Papel', 'Tesoura')
+#computador = randint(0, 2)
 #
 #print('-=-'*10)
-#print('1-Tesoura\n2-Papel\n3-Pedra')
+#print('0-Pedra\n1-Papel\n2-Tesoura')
 #print('-=-'*10)
 #
-#jogador = str(input('escolha sua jogada: '))
+#jogador = int(input('escolha sua jogada: '))
 #
-#tesoura = ...
-#papel = ...
-#pedra = ...
+#print('Jo')
+#sleep(1)
+#print('ken')
+#sleep(1)
+#print('po!!!')
 #
-#print(jogador)
+#print('-='*14)
+#print('Computador jogou {}'.format(itens[computador]))
+#print('Jogador jogou {}'.format(itens[jogador]))
+#print('-='*14)
+#
+#if computador ==0: #computador jogou pedra
+#    if jogador == 0:
+#        print('empate')
+#    elif jogador == 1:
+#        print('jogador venceu')
+#    elif jogador == 2:
+#        print('computador vence')
+#    else:
+#        print('jogada inválida')
+#elif computador ==1: #computador jogou papel
+#    if jogador == 0:
+#        print('computador vence')
+#    elif jogador == 1:
+#        print('empate')
+#    elif jogador == 2:
+#        print('jogador venceu')
+#    else:
+#        print('jogada inválida')
+#elif computador == 2: #computador jogou tesoura
+#    if jogador == 0:
+#        print('jogador venceu')
+#    elif jogador == 1:
+#        print('computador vence')
+#    elif jogador == 2:
+#        print('empate')
+#    else:
+#        print('jogada inválida')
