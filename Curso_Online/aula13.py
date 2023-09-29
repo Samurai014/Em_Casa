@@ -81,7 +81,59 @@
 #    print('a frase digitada não e um palíndromo!')
 
 #Desafio 54
+#from datetime import date
+#atual = date.today().year
+#
+#totmaior = 0
+#totmenor = 0
+#
+#for pess in range(1,8):
+#    nasc = int(input('Em que ano a pessoa nasceu? '))
+#    idade = atual - nasc
+#    if idade >= 21:
+#        totmaior += 1
+#    else:
+#        totmenor += 1
+#
+#print('ao todo tivemos {} pessoas maiores de idade\ne tambem tivemos {} pessoas menores de idade'.format(totmaior, totmenor))
 
 #Desafio 55
+# maior = 0
+# menor = 0
+# for p in range(1,6):
+#     peso = float(input('Peso da {} pessoa: '.format(p)))
+#     if p == 1:
+#         maior = peso
+#         menor = peso
+#     else:
+#         if peso > maior:
+#             maior = peso
+#         if peso < menor:
+#             menor = peso
+# print('o maior peso lindo foi de {}Kg\no menor peso lido foi de {}Kg'.format(maior,menor))
 
 #Desafio 56
+# somaidade = 0
+# mediaidade = 0
+# maioridadehomem = 0
+# nomevelho = ''
+# totmulher20 = 0
+# for p in range(1,5):
+#     print('----- {} Pessoa -----'.format(p))
+#     nome = str(input('Nome: ')).strip()
+#     idade = int(input('Idade: '))
+#     sexo = str(input('Sexo [M/F]: ')).strip()
+#     somaidade += idade
+#     if p == 1 and sexo in 'Mm':
+#         maioridadehomem = idade
+#         nomevelho = nome
+#     if sexo in 'Mm' and idade > maioridadehomem:
+#         maioridadehomem = idade
+#         nomevelho = nome
+#     if sexo in 'Ff' and idade < 20:
+#         totmulher20 += 1
+
+# mediaidade = somaidade/4
+# print('a média de idade do grupo é de {} anos'.format(mediaidade))
+# print('o homem mais velho tem {} anor e se chama {}.'.format(maioridadehomem, nomevelho))
+# print('ao todo são {} mulheres com menos de 20 anos'.format(totmulher20))
