@@ -94,3 +94,39 @@
 #     print('O valor 5 não foi encontrado na lista!')
 
 # Desafio 82
+# n = list()
+# pares = list()
+# impares = list()
+
+# while True:
+#     n.append(int(input('Digite um valor: ')))
+#     resp = str(input('Quer continuar? [S/N] '))
+#     if resp in 'Nn':
+#         break
+# for i, v in enumerate(n):
+#     if v % 2 == 0:
+#         pares.append(v)
+#     elif v % 2 == 1:
+#         impares.append(v)
+# print('-='*30)
+# print(f'A lista completa é {n}')
+# print(f'A lista de pares é {pares}')
+# print(f'A lista de ímpares é {impares}')
+
+# Desafio 83
+# espressao = str(input('Digite a expressão: '))
+# pilha = []
+
+# for simb in espressao:
+#     if simb == '(':
+#         pilha.append('(')
+#     elif simb == ')':
+#         if len(pilha) > 0:
+#             pilha.pop()
+#         else:
+#             pilha.append(')')
+#             break
+# if len(pilha) == 0:
+#     print('Sua expressão esta válida!')
+# else:
+#     print('Sua expressão esta errada')
