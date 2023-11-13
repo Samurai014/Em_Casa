@@ -61,6 +61,54 @@
 # contador(ini, fim, passo)
 
 # Desafio 99
+# from time import sleep
 
+# def maior(* num):
+#     cont = maior = 0
+#     print('-='*30)
+#     print('Analisando os valores passados... ')
+
+#     for valor in num:
+#         print(f'{valor} ', end='', flush=True)
+    
+#         sleep(0.5)
+
+#         if cont == 0:
+#             maior = valor
+#         else:
+#             if valor > maior:
+#                 maior = valor
+    
+#         cont += 1
+#     print(f'Foram informados {cont} valores ao todo.')
+#     print(f'O maior valor informado foi {maior}')
+
+# maior(2, 9, 4, 5, 7, 1)
+# maior(4, 7, 0)
+# maior(1, 2)
+# maior(6)
+# maior()
 
 # Desafio 100
+# from random import randint
+# from time import sleep
+
+# def sorteia(lista):
+#     print('Sorteando 5 valores de lista: ', end='')
+
+#     for cont in range(0,5):
+#         n = randint(1, 10)
+#         lista.append(n)
+#         print(f'{n} ', end='', flush=True)
+#         sleep(0.5)
+#     print('PRONTO!')
+# def somaPar(lista):
+#     soma = 0
+#     for valor in lista:
+#         if valor % 2 == 0:
+#             soma += valor
+#     print(f'Somando o valores pares de {lista}, temos {soma}')
+
+# numeros = list()
+# sorteia(numeros)
+# somaPar(numeros)
